@@ -5,8 +5,35 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calculator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        Title="MainWindow" Height="350" Width="525"  FontSize="24">
+    <Grid Background="BlueViolet">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="IOTextbox" Grid.ColumnSpan="4" Text="0" TextAlignment="Right" VerticalAlignment="Stretch"  FontSize="24" Margin="5"/>
+        <!--Label Grid.Row="1" Content="7" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="AliceBlue" HorizontalContentAlignment="Center" Margin="5"/-->
+        <Button x:Name="Number7" Grid.Row="2" Grid.Column="0" Content="7" Background="AliceBlue" />
+        <Button x:Name="Number8" Grid.Row="2" Grid.Column="1" Content="8" Background="AliceBlue" />
+        <Button x:Name="Number9" Grid.Row="2" Grid.Column="2" Content="9" Background="AliceBlue" />
+
+        <Button x:Name="Number4" Grid.Row="3" Grid.Column="0" Content="4" Background="AliceBlue" />
+        <Button x:Name="Number5" Grid.Row="3" Grid.Column="1" Content="5" Background="AliceBlue" />
+        <Button x:Name="Number6" Grid.Row="3" Grid.Column="2" Content="6" Background="AliceBlue" />
+
+        <Button x:Name="Number1" Grid.Row="4" Grid.Column="0" Content="1" Background="AliceBlue" />
+        <Button x:Name="Number2" Grid.Row="4" Grid.Column="1" Content="2" Background="AliceBlue" />
+        <Button x:Name="Number3" Grid.Row="4" Grid.Column="2" Content="3" Background="AliceBlue" />
+
     </Grid>
 </Window>

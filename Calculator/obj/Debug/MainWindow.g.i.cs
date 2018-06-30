@@ -40,6 +40,86 @@ namespace Calculator {
     /// </summary>
     public partial class MainWindow : System.Windows.Window, System.Windows.Markup.IComponentConnector {
         
+        
+        #line 24 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.TextBox IOTextbox;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 26 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button Number7;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 27 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button Number8;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 28 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button Number9;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 30 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button Number4;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 31 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button Number5;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 32 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button Number6;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 34 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button Number1;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 35 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button Number2;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 36 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button Number3;
+        
+        #line default
+        #line hidden
+        
         private bool _contentLoaded;
         
         /// <summary>
@@ -68,6 +148,39 @@ namespace Calculator {
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity")]
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1800:DoNotCastUnnecessarily")]
         void System.Windows.Markup.IComponentConnector.Connect(int connectionId, object target) {
+            switch (connectionId)
+            {
+            case 1:
+            this.IOTextbox = ((System.Windows.Controls.TextBox)(target));
+            return;
+            case 2:
+            this.Number7 = ((System.Windows.Controls.Button)(target));
+            return;
+            case 3:
+            this.Number8 = ((System.Windows.Controls.Button)(target));
+            return;
+            case 4:
+            this.Number9 = ((System.Windows.Controls.Button)(target));
+            return;
+            case 5:
+            this.Number4 = ((System.Windows.Controls.Button)(target));
+            return;
+            case 6:
+            this.Number5 = ((System.Windows.Controls.Button)(target));
+            return;
+            case 7:
+            this.Number6 = ((System.Windows.Controls.Button)(target));
+            return;
+            case 8:
+            this.Number1 = ((System.Windows.Controls.Button)(target));
+            return;
+            case 9:
+            this.Number2 = ((System.Windows.Controls.Button)(target));
+            return;
+            case 10:
+            this.Number3 = ((System.Windows.Controls.Button)(target));
+            return;
+            }
             this._contentLoaded = true;
         }
     }

@@ -1,1 +1,2 @@
 D:\Reserches\Projs\Calculator\Calculator\bin\Debug\Calculator.exe.config
+D:\Projects\Calc\Calculator\bin\Debug\Calculator.exe.config
